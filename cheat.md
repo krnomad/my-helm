@@ -31,6 +31,13 @@ helm upgrade prometheus-stack prometheus-community/kube-prometheus-stack -f prom
 - If charts exist in the current folder
   helm upgrdae prometheus-stack .
 
+# Chart development
+- Pull chart with pull command (tar.gz downlaoded)
+  helm pull jenkins/jenkins
+- tar zxvf
+- change chart
+
+
 
 # Link
 - https://forcloud.tistory.com/206
@@ -38,3 +45,4 @@ helm upgrade prometheus-stack prometheus-community/kube-prometheus-stack -f prom
 # Issue
 - Grafana redirection if path is used for ingress
   solution: https://move02.github.io/articles/2021-10/Kubernetes-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95
+
