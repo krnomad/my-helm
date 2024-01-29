@@ -1,0 +1,1 @@
+helm install promtail grafana/promtail --set config.lokiAddress=http://loki:3100/loki/api/v1/push
