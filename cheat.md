@@ -34,6 +34,7 @@ helm upgrade prometheus-stack prometheus-community/kube-prometheus-stack -f prom
 # Chart development
 - Pull chart with pull command (tar.gz downlaoded)
   helm pull jenkins/jenkins
+  helm fetch prometheus-community/prometheus-stack --untar
 - tar zxvf
 - change chart
 
